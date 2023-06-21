@@ -53,8 +53,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/adhami3310/Impression/uploads/5f96680485da5bfadba1328466372d28/impression-v2.0.tar.xz",
-                    "sha256": "db106698982f22ba175c1cc1faaca2e74eaa494553d355457fdf78022d347b53"
+                    "url": "https://gitlab.com/adhami3310/Impression/uploads/b328daf7dadb7465f8b505989e418991/impression-v2.1.tar.xz",
+                    "sha256": "2c352beee51902bfcec7b0e21c3ad2714c3bf91fdce3304fce807f746140cab7"
                 }
             ]
         }
