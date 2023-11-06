@@ -1,7 +1,7 @@
 {
     "id": "io.gitlab.adhami3310.Impression",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "44",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -12,7 +12,8 @@
         "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland",
-        "--system-talk-name=org.freedesktop.UDisks2"
+        "--system-talk-name=org.freedesktop.UDisks2",
+        "--share=network"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
@@ -35,9 +36,6 @@
         {
             "name": "blueprint-compiler",
             "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
             "sources": [
                 {
                     "type": "git",
@@ -53,8 +51,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/adhami3310/Impression/uploads/b328daf7dadb7465f8b505989e418991/impression-v2.1.tar.xz",
-                    "sha256": "2c352beee51902bfcec7b0e21c3ad2714c3bf91fdce3304fce807f746140cab7"
+                    "url": "https://gitlab.com/adhami3310/Impression/uploads/40bdcb0e145495a5a24687f7187e981c/impression-3.0.tar.xz",
+                    "sha256": "5b2e032d0aad67410a332a4714a7150933c71f3deca5309e964f396a0cf604b3"
                 }
             ]
         }
