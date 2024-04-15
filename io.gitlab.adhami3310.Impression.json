@@ -1,7 +1,7 @@
 {
     "id": "io.gitlab.adhami3310.Impression",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "46",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -36,12 +36,14 @@
         {
             "name": "blueprint-compiler",
             "buildsystem": "meson",
+            "cleanup": [
+                "*"
+            ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler.git",
-                    "tag": "v0.8.1",
-                    "commit": "aa7679618e864748f4f4d8f15283906e712752fe"
+                    "tag": "v0.10.0"
                 }
             ]
         },
@@ -51,8 +53,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/adhami3310/Impression/uploads/b2b8127f610c5316076a6e2d23922019/impression-3.1.0.tar.xz",
-                    "sha256": "53812e9fd6735eee9ca5457ff8e89262377138cc06cb2678af1c05e375cf8e7b"
+                    "url": "https://gitlab.com/adhami3310/Impression/uploads/7bcab93b1cfe7e0c812fad5ff0fc791d/impression-3.2.0.tar.xz",
+                    "sha256": "d88b5285e52d373b4dfb92450960afd722f460528b555d6bae9139a0c9960b32"
                 }
             ]
         }
