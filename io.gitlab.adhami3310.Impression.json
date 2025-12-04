@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/-/project/46498291/uploads/d1d9a12bd5795d4672ad6b4c08a07777/impression-3.5.4.tar.xz",
-                    "sha256": "3ef92f85b1670b8e4b483dcf7f70556d67635d899efb341eb1c690241d02df9a"
+                    "url": "https://gitlab.com/-/project/46498291/uploads/6a7077bbd6482af9cf7658a5cf6362a5/impression-3.5.5.tar.xz",
+                    "sha256": "0ed7fd9bd4b9398b9f77bc4f2659a3bc7e2ed807103aa76e96937c07fb1ad476"
                 }
             ]
         }
