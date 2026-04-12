@@ -1,7 +1,7 @@
 {
     "id": "io.gitlab.adhami3310.Impression",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "49",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/-/project/46498291/uploads/cdb991852d795587bc6ad75916c22eaf/impression-3.6.0.tar.xz",
-                    "sha256": "162c7a5dbc5511e2a19ccebc2fa68625ff61e703225af7c09b0bf17a3981976e"
+                    "url": "https://gitlab.com/-/project/46498291/uploads/dfb5c5c4bd667df81a36075825d93988/impression-3.7.0.tar.xz",
+                    "sha256": "081faf7b3dab3d4ae4a41610af9cebfc8284430d7f3e5ab1ddc9be7ff104e620"
                 }
             ]
         }
