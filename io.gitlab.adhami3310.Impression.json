@@ -23,13 +23,47 @@
     },
     "modules": [
         {
+            "name": "wimlib",
+            "buildsystem": "autotools",
+            "config-opts": ["--without-fuse", "--without-ntfs-3g"],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://wimlib.net/downloads/wimlib-1.14.5.tar.gz",
+                    "sha256": "84221a3abd5b91228f15f8e6065c335a336237b5738197b75bf419eea561a194"
+                }
+            ]
+        },
+        {
+            "name": "libcdio",
+            "buildsystem": "autotools",
+            "config-opts": [
+                "--disable-static",
+                "--disable-cxx",
+                "--disable-example-progs",
+                "--without-cd-drive",
+                "--without-cd-info",
+                "--without-cdda-player",
+                "--without-cd-read",
+                "--without-iso-info",
+                "--without-iso-read"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/libcdio/libcdio/releases/download/2.3.0/libcdio-2.3.0.tar.bz2",
+                    "sha256": "53e83d284667535a767fd2d31edad1a6701591960459df373a10f1f21e80a7ed"
+                }
+            ]
+        },
+        {
             "name": "impression",
             "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://gitlab.com/-/project/46498291/uploads/dfb5c5c4bd667df81a36075825d93988/impression-3.7.0.tar.xz",
-                    "sha256": "081faf7b3dab3d4ae4a41610af9cebfc8284430d7f3e5ab1ddc9be7ff104e620"
+                    "url": "https://gitlab.com/-/project/46498291/uploads/eec3c4a1c94d2979e2728aa2ab12f650/impression-3.8.0.tar.xz",
+                    "sha256": "a429f9a23bf12f2c839aca713a484e756d5dc3b6ddf3f71fdd4c387758b0c56d"
                 }
             ]
         }
